@@ -3,15 +3,21 @@ body {
     font-size: 12px;
     color: #616161;
 }
-ul, ol, li {
+
+ul,
+ol,
+li {
     list-style: none;
 }
+
 .wrapper {
     overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    border: 1px solid red;
 }
+
 .main {
     flex: 1 1 auto;
 }
@@ -19,4 +25,5 @@ ul, ol, li {
 [class*="__container"] {
     max-width: 1057px;
     margin: 0 auto;
+    background-color: #616161;
 }
